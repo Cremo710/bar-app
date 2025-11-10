@@ -1,0 +1,74 @@
+const bars = [
+  {
+    id: '1',
+    name: 'Bar del Centro',
+    address: 'Piazza del Duomo 1, Milano',
+    rating: '4.5',
+    distance: '0.5',
+    points: '120',
+    discount: 15,
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80',
+    description: 'Bar accogliente nel cuore di Milano, perfetto per una pausa caffè o un aperitivo.',
+    openingHours: 'Lun-Dom: 7:00 - 21:00',
+    phone: '02 1234567',
+    email: 'info@bardelcentro.it'
+  },
+  {
+    id: '2',
+    name: 'Caffè Letterario',
+    address: 'Via Roma 15, Milano',
+    rating: '4.8',
+    distance: '1.2',
+    points: '200',
+    discount: 20,
+    image: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80',
+    description: 'Un luogo unico dove gustare ottimi drink circondati da libri e cultura.',
+    openingHours: 'Mar-Dom: 9:00 - 23:00',
+    phone: '02 7654321',
+    email: 'info@caffetterialetteraria.it'
+  },
+  {
+    id: '3',
+    name: 'La Vineria',
+    address: 'Via Torino 42, Milano',
+    rating: '4.3',
+    distance: '0.8',
+    points: '85',
+    discount: 10,
+    image: 'https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80',
+    description: 'Enoteca raffinata con una vasta selezione di vini italiani e internazionali.',
+    openingHours: 'Lun-Sab: 10:00 - 24:00',
+    phone: '02 9876543',
+    email: 'info@lavineria.it'
+  },
+  {
+    id: '4',
+    name: 'Pasticceria Dolce Vita',
+    address: 'Corso Vittorio Emanuele 78, Milano',
+    rating: '4.6',
+    distance: '1.5',
+    points: '150',
+    discount: 12,
+    image: 'https://images.unsplash.com/photo-1551024601-bec78aea704c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80',
+    description: 'Pasticceria tradizionale con i migliori dolci fatti in casa e caffè di qualità.',
+    openingHours: 'Mer-Lun: 7:30 - 20:00',
+    phone: '02 4567890',
+    email: 'info@pasticceriadolcevita.it'
+  },
+  {
+    id: '5',
+    name: 'Gelateria Artigianale',
+    address: 'Via Dante 33, Milano',
+    rating: '4.9',
+    distance: '0.3',
+    points: '180',
+    discount: 15,
+    image: 'https://images.unsplash.com/photo-1501443762994-82bd3d6eaf42?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80',
+    description: 'Gelati artigianali realizzati con ingredienti freschi e di stagione.',
+    openingHours: 'Tutti i giorni: 10:00 - 24:00',
+    phone: '02 2345678',
+    email: 'info@gelateriaartigianale.it'
+  }
+];
+
+export default bars;
