@@ -17,9 +17,9 @@ const BarDetailScreen = () => {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
-      <Image source={{ uri: bar.image }} style={styles.image} />
+    <View style={styles.container}>
       <ScrollView style={styles.scrollView}>
+        <Image source={{ uri: bar.image }} style={styles.image} />
         <View style={styles.infoContainer}>
           <View style={styles.headerRow}>
             <View>
@@ -65,7 +65,7 @@ const BarDetailScreen = () => {
           <Text style={styles.redeemButtonText}>Riscatta premi</Text>
         </TouchableOpacity>
       </View>
-    </SafeAreaView>
+    </View>
   );
 };
 
