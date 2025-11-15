@@ -23,11 +23,6 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.barfinder.app",
-      "config": {
-        "googleMaps": {
-          "apiKey": "AIzaSyBxXJcX7X7X7X7X7X7X7X7X7X7X7X7X7X"
-        }
-      },
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "UIBackgroundModes": ["location"],
@@ -65,7 +60,6 @@
         }
       ]
     ],
-    "entryPoint": "./index.js",
     "extra": {
       "eas": {
         "projectId": "df20dcb3-8bba-4f75-b987-5271929be166"
